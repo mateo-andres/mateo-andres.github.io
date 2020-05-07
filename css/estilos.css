@@ -1,6 +1,6 @@
 body {
-  font-family:'Source Sans Pro', sans-serif;
-  margin:0px;
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0px;
 }
 
 h1,
@@ -8,33 +8,33 @@ h2,
 h3,
 h4,
 h5,
-h6{
-  font-family:'Fjalla One', sans-serif;
+h6 {
+  font-family: "Fjalla One", sans-serif;
 }
 
-h1{
+h1 {
   font-size: 40px;
-  line-height:1.5;
-  letter-spacing:-.2px;
-  color:white;
-  margin:0;
+  line-height: 1.5;
+  letter-spacing: -0.2px;
+  color: white;
+  margin: 0;
 }
-h1 strong{
-  color:#026fff;
+h1 strong {
+  color: #026fff;
 }
 
-h2{
-  color:#026fff;
-  text-transform:uppercase;
-  font-family:'Source Sans Pro';
+h2 {
+  color: #026fff;
+  text-transform: uppercase;
+  font-family: "Source Sans Pro";
   font-size: 24px;
-  margin-bottom:40px;
+  margin-bottom: 40px;
 }
 
-.hero{
+.hero {
   height: 300px;
   /* background-image:url("../hero.jpg"); */
-  background-color: #48C9B0 ;
+  background-color: #48c9b0;
   /* background-size: 500px, 300px; */
   /* background-repeat: no-repeat; */
   /* background-position-x:right ; */
@@ -43,16 +43,16 @@ h2{
   justify-content: space-between;
 }
 
-.hero-image{
+.hero-image {
   object-fit: cover;
 }
 
-.portfolio{
-  background:#fafafa;
+.portfolio {
+  background: #fafafa;
   padding: 20px;
 }
 
-.project{
+.project {
   /* border-top: 10px solid red;
   border-right: 10px solid green;
   border-left: 10px solid orange; */
@@ -63,131 +63,130 @@ h2{
   border-radius: 10px;
   margin-bottom: 15px;
   padding: 20px;
-  background:white;
-  display:flex;
+  background: white;
+  display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.project-title{
+.project-title {
   font-size: 30px;
-  margin-top:0px;
+  margin-top: 0px;
   margin-bottom: 10px;
 }
 
 .project-date,
 .project-course,
-.project-url{
-  margin:10px 0px;
+.project-url {
+  margin: 10px 0px;
 }
 
-.project-description{
+.project-description {
   font-size: 20px;
 }
 
-.project strong{
-  font-family: 'Fjalla One', sans-serif;
+.project strong {
+  font-family: "Fjalla One", sans-serif;
 }
 
-.project-details{
+.project-details {
   width: 500px;
 }
 
-.project-imageContainer{
+.project-imageContainer {
   width: 500px;
 }
 
-
-.header{
-  background-color: #48C9B0  ;
+.header {
+  background-color: #48c9b0;
   color: white;
-  display:flex;
+  display: flex;
   height: 70px;
   align-items: center;
   justify-content: space-between;
-
+  flex-wrap: wrap;
 }
 
 ol,
-ul{
-  margin:0;
-  padding:0;
+ul {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
-figure{
+figure {
   margin: 0;
 }
 
-.header a{
+.header a {
   color: white;
   text-decoration: none;
 }
 
-.menu{
-  height:inherit;
+.menu {
+  height: inherit;
 }
 
-.header ol{
+.header ol {
   display: flex;
   height: inherit;
 }
 
-.header ol li{
-  height:inherit;
+.header ol li {
+  height: inherit;
 }
 
-.header a{
-  color:black;
+.header a {
+  color: black;
   display: flex;
   align-items: center;
-  height:inherit;
+  height: inherit;
   padding: 0 10px;
 }
 
-.footer{
-  color:white;
-  background-color:#1b2127;
+.footer {
+  color: white;
+  background-color: #1b2127;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.footer img{
+.footer img {
   vertical-align: middle;
 }
 
-.footer a{
+.footer a {
   color: white;
   text-decoration: none;
 }
 
-.event-list{
-  display:flex;
+.event-list {
+  display: flex;
   flex-wrap: wrap;
 }
 
-.event-list-title{
+.event-list-title {
   margin-left: 20px;
 }
 
-.event{
-  margin:10px;
+.event {
+  margin: 10px;
   width: 480px;
-  flex-shrink:0 ;
+  flex-shrink: 0;
   border-radius: 10px;
   overflow: hidden;
   background: #f4fbff;
 }
 
-.event img{
+.event img {
   width: 480px;
   height: 200px;
   object-fit: cover;
 }
 
-.event-detail{
-  margin:20px 40px;
+.event-detail {
+  margin: 20px 40px;
   margin-top: -40px;
   background-color: white;
   position: relative;
@@ -195,87 +194,83 @@ figure{
   text-align: center;
 }
 
-.event_description{
-  text-align:left;
+.event_description {
+  text-align: left;
 }
 
-.event_url{
-  color:#056fff;
+.event_url {
+  color: #056fff;
   border: 1px solid #056fff;
-  padding:5px 20px;
-  text-decoration:none;
-  border-radius:5px;
+  padding: 5px 20px;
+  text-decoration: none;
+  border-radius: 5px;
 }
 
-.contact{
-  background-color: #48C9B0;
-  color:white;
+.contact {
+  background-color: #48c9b0;
+  color: white;
   height: 150px;
-  display:flex;
+  display: flex;
   align-items: center;
   justify-content: space-between;
   /* padding: 0 20px ; */
 }
 
-.social{
-
-}
-
-.social-link{
+.social-link {
   display: inline-block;
   width: 50px;
-  height:50px;
+  height: 50px;
   margin: 0 10px;
   background-size: 50px 50px;
 }
 
-.social-link.twitter{
-  background-image: url('../twitter.svg');
+.social-link.twitter {
+  background-image: url("../twitter.svg");
 }
-.social-link.facebook{
-  background-image: url('../facebook.svg');
+.social-link.facebook {
+  background-image: url("../facebook.svg");
 }
-.social-link.github{
-  background-image: url('../github.svg');
+.social-link.github {
+  background-image: url("../github.svg");
 }
-.social-link.instagram{
-  background-image: url('../instagram.svg');
+.social-link.instagram {
+  background-image: url("../instagram.svg");
 }
 
-.form-email input{
-  border-color:gray;
+.form-email input {
+  border-color: gray;
   border-style: solid;
   border-radius: 5px;
   padding: 10px 20px 10px 25px;
-  background-image: url('../envelope.svg');
+  background-image: url("../envelope.svg");
   background-size: 15px 15px;
   background-repeat: no-repeat;
   background-position-y: center;
   background-position-x: 5px;
 }
 
-.form-email button{
-  display:block;
+.form-email button {
+  display: block;
   background: transparent;
   color: white;
   padding: 10px 0;
   border-radius: 5px;
   width: 100px;
-  margin-top:10px;
+  margin-top: 10px;
   border-style: solid;
 }
 
-.form-email h3{
-  font-family: 'Source Sans Pro';
+.form-email h3 {
+  font-family: "Source Sans Pro";
 }
 
-.container{
+.container {
   /* border: 1px solid red; */
-  width:1100px;
+  width: 1100px;
   margin: 0 auto;
   display: inherit;
   justify-content: inherit;
   align-items: inherit;
   height: inherit;
-  flex-wrap:inherit;
+  flex-wrap: inherit;
 }
