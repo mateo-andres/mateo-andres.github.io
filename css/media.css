@@ -12,6 +12,15 @@
   p {
     font-size: 25px;
   }
+
+  footer {
+    display: block;
+    height: initial;
+    width: initial;
+    right: -10px;
+    bottom: -10px;
+    position: absolute;
+  }
 }
 
 @media only screen and (max-width: 550px) {
@@ -23,5 +32,11 @@
   p {
     text-align: center;
     font-size: 20px;
+  }
+  footer {
+    position: initial;
+    width: initial;
+    height: initial;
+    display: block;
   }
 }
