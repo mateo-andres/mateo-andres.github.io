@@ -1,11 +1,14 @@
 body {
-  background-image: url("https://www.nasa.gov/sites/default/files/thumbnails/image/stsci-h-p1821a-m-1699x2000.png");
+  /* background-image: url("https://www.nasa.gov/sites/default/files/thumbnails/image/stsci-h-p1821a-m-1699x2000.png"); */
+  background: linear-gradient(135deg, #1a5276, #1abc9c, #8e44ad);
+  background-repeat: no-repeat;
   color: white;
   font-family: "Montserrat";
   font-weight: 400;
   margin: 0;
   padding: 0;
   max-height: 100vh;
+  height: 100vh;
 }
 
 .container {
@@ -28,10 +31,12 @@ h1 {
 }
 
 img {
-  border-radius: 50%;
   width: 260px;
   margin: 30px;
   margin-bottom: 10px;
+}
+.me-img {
+  border-radius: 50%;
 }
 
 .social-links a {
