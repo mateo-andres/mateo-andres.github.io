@@ -129,8 +129,6 @@ img {
   min-height: 200px;
   position: initial;
 }
-.contact-form .form-box .input-box .w100 {
-}
 
 .contact-form .form-box .input-box input:focus ~ span,
 .contact-form .form-box .input-box textarea:focus ~ span,
