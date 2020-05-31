@@ -1,42 +1,18 @@
 @media only screen and (max-width: 1023px) {
-  h1 {
-    font-size: 60px;
-    margin: 10px -36px;
+  body {
+    background-color: lime;
   }
-  .main-text {
-    font-size: 22px;
+  .title {
+    font-size: 30px;
   }
 }
 
 @media only screen and (max-width: 800px) {
-  p {
-    font-size: 25px;
-  }
-
-  footer {
-    display: block;
-    height: initial;
-    width: initial;
-    right: -10px;
-    bottom: -10px;
-    position: absolute;
-  }
 }
 
 @media only screen and (max-width: 550px) {
-  img {
-    margin: 12px 0;
+  .title {
+    font-size: 30px;
     text-align: center;
-    margin-left: -30px;
-  }
-  p {
-    text-align: center;
-    font-size: 20px;
-  }
-  footer {
-    position: initial;
-    width: initial;
-    height: initial;
-    display: block;
   }
 }
