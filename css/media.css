@@ -1,9 +1,75 @@
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1024px) {
   body {
-    background-color: lime;
+    /* background-color: lime; */
+    max-height: 100vh;
+    /* max-width: 100vw; */
   }
+
+  header .logo {
+    width: 60px;
+    height: 100px;
+  }
+  header .logo p {
+    font-size: 35px;
+  }
+
   .title {
+    right: 120px;
+  }
+
+  .main-img {
+    left: 30%;
+    width: 50%;
+    margin: 50px;
+    margin-left: 0;
+  }
+  .main-img img {
+    width: 80%;
+    border-radius: 50%;
+  }
+
+  .main-text .text {
+    top: 45%;
+    right: 26%;
+  }
+
+  .main-text .text p {
     font-size: 30px;
+  }
+  .left-menu {
+    display: flex;
+    width: 70%;
+    height: 60px;
+    top: initial;
+    bottom: 20px;
+    left: 8em;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+  }
+  .left-menu img {
+    margin: 0;
+    width: 50px;
+  }
+  .box-canvas {
+    bottom: 200px;
+    right: 210px;
+  }
+
+  .left-menu .phone {
+    border: 1px solid red;
+    left: initial;
+    right: -100px;
+    height: 45px;
+    /* width: ; */
+    bottom: 0;
+    font-size: 30px;
+    padding-left: 0;
+  }
+  .left-menu .phone:hover {
+    left: initial;
+    bottom: 0;
+    padding-left: 0;
   }
 }
 
