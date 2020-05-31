@@ -131,14 +131,14 @@ body{
 
 .box-canvas {
   position: absolute;
-  bottom: -90px;
+  bottom: 80px;
   right: 150px;
   margin: auto;
   display: block;
   /* margin-top: 8%; */
   /* margin-bottom: 8%; */
   width: 600px;
-  height: 600px;
+  height: 400px;
   /* background: var(--background-color); */
   perspective: 800px;
 }
