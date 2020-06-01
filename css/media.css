@@ -10,11 +10,11 @@
     height: 100px;
   }
   header .logo p {
-    font-size: 35px;
+    font-size: 2em;
   }
 
   .title {
-    right: 120px;
+    right: 15%;
   }
 
   .main-img {
@@ -52,12 +52,12 @@
     width: 50px;
   }
   .box-canvas {
+    top: initial;
     bottom: 200px;
     right: 210px;
   }
 
   .left-menu .phone {
-    border: 1px solid red;
     left: initial;
     right: -100px;
     height: 45px;
